@@ -1,7 +1,7 @@
 import os
 import telebot
  
-# my_secret = os.environ['TOKEN'] #instead of sec111 put a token of your bot here
+# my_secret = os.environ['TOKEN'] #instead of TOKEN put a token of your bot here
 bot= telebot.TeleBot(my_secret) 
 @bot.message_handler(commands=["start"])  
 def st(message):
